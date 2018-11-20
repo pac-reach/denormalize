@@ -20,7 +20,7 @@ Package.onUse(function (api) {
     'ecmascript',
     'mongo',
     'check',
-    'matb33:collection-hooks@0.8.4'
+    'pac-reach:meteor-collection-hooks'
   ])
 
   api.mainModule('cache.js', 'server')
