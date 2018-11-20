@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'herteby:denormalize',
-  version: '0.6.5',
+  name: 'pac-reach:denormalize',
+  version: '0.6.6',
   // Brief, one-line summary of the package.
   summary: 'Simple denormalization for Meteor',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/herteby/denormalize',
+  git: 'https://github.com/pac-reach/denormalize',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -15,7 +15,7 @@ Npm.depends({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.5')
+  api.versionsFrom('1.8')
   api.use([
     'ecmascript',
     'mongo',
@@ -34,7 +34,7 @@ Package.onTest(function (api) {
     'ecmascript',
     'mongo',
     'check',
-    'matb33:collection-hooks@0.8.4',
+    'pac-reach:meteor-collection-hooks',
     'practicalmeteor:mocha',
     'practicalmeteor:chai'
   ])
