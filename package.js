@@ -15,7 +15,7 @@ Npm.depends({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.8')
+  api.versionsFrom('1.9')
   api.use([
     'ecmascript',
     'mongo',
